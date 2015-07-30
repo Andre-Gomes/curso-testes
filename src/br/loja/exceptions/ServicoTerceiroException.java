@@ -4,6 +4,7 @@ package br.loja.exceptions;
 public class ServicoTerceiroException extends RuntimeException {
 	
 	public ServicoTerceiroException(Throwable cause) {
+		System.out.printl("teste");
 		super(cause);
 	}
 
